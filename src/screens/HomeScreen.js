@@ -17,13 +17,21 @@ const HomeScreen = ({ navigation }) => {
         onPress={()=> navigation.navigate('Image')}
         title="Go to Image Screen"
       />
+      <Button
+        onPress={()=> navigation.navigate('Counter')}
+        title="Go to Counting Screen"
+      />
+      <Button
+        onPress={()=> navigation.navigate('Color')}
+        title="Go to Color Screen"
+      />
     </View>
   )
 };
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 30,
+    fontSize: 60,
     textAlign: 'center'
   }
 });
